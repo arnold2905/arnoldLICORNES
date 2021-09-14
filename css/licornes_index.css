@@ -1,0 +1,42 @@
+/* licornes index  */
+
+body {
+    background-image: url("../img/background.png");
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: auto;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+* {
+    font-family: Avenir, sans-serif;
+    color: #222;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px -10px; /*J'explique cela plus loin dans cette leçon !*/
+}
+  
+nav ul li{
+    flex: 1 1 20%;
+    margin: 0px 10px;
+    background-color: RGBa(60,120,240,0.1);
+}
+  
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.licorne-image image {
+    width: 250px;
+}
+
