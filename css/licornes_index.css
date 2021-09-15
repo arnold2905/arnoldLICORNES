@@ -14,29 +14,38 @@ main {
 }
 
 * {
-    font-family: Avenir, sans-serif;
     color: #222;
     padding: 0px;
-}
-nav ul{
-    display: flex;
-    list-style-type: none;
-    margin: 0px -10px; /*J'explique cela plus loin dans cette leçon !*/
-}
-  
-nav ul li{
-    flex: 1 1 20%;
-    margin: 0px 10px;
-    background-color: RGBa(60,120,240,0.1);
-}
-  
-nav ul li a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
+    box-sizing: border-box;
 }
 
-.licorne-image image {
-    width: 250px;
+header {
+    background-color: pink;
+}
+
+
+.navbar {
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 16px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    padding: 0px;
+    
+}
+
+#licornes {
+    display: flex;
+    justify-content: space-between;
 }
 
